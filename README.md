@@ -202,7 +202,6 @@ streamlist/
 ├── database/
 │   └── connect.php       # conexão PDO com o PostgreSQL
 │   └── schema.sql        # criação das tabelas
-
 ├── includes/
 │   ├── functions.php     # funções de acesso ao banco
 │   ├── header.php        # cabeçalho comum
@@ -211,6 +210,7 @@ streamlist/
 │   ├── login.php         # entrada do usuário
 │   ├── cadastrar.php     # cadastro de usuário
 │   └── verifica_user.php # protege as páginas (exige sessão)
+│ index.php # tela de início(introdução do projeto)
 ```
 
 ---

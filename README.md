@@ -199,9 +199,10 @@ streamlist/
 ├── assets/
 │   ├── style.css         # estilos (tema escuro)
 │   ├── capas.js          # funções de busca de capas (buscaFilmes, buscaSeries)
-│   └── create.js         # comportamento da tela de adicionar
 ├── database/
 │   └── connect.php       # conexão PDO com o PostgreSQL
+│   └── schema.sql        # criação das tabelas
+
 ├── includes/
 │   ├── functions.php     # funções de acesso ao banco
 │   ├── header.php        # cabeçalho comum
@@ -210,9 +211,6 @@ streamlist/
 │   ├── login.php         # entrada do usuário
 │   ├── cadastrar.php     # cadastro de usuário
 │   └── verifica_user.php # protege as páginas (exige sessão)
-├── logo-icone.svg        # ícone do site
-├── schema.sql            # criação das tabelas
-└── README.md
 ```
 
 ---

@@ -238,7 +238,7 @@ A integração tem três camadas. O navegador **nunca** fala direto com o TMDB: 
 
 ```mermaid
 flowchart LR
-    A["Navegador<br/>capas.js / create.js"] -->|"GET tmdb.php?tipo=tv&q=naruto"| B["Servidor PHP<br/>app/tmdb.php"]
+    A["Navegador<br/>capas.js"] -->|"GET tmdb.php?tipo=tv&q=naruto"| B["Servidor PHP<br/>app/tmdb.php"]
     B -->|"GET /3/search/tv?api_key=...&query=naruto"| C["API do TMDB<br/>api.themoviedb.org"]
     C -->|"JSON com results[]"| B
     B -->|"JSON [{capa, titulo}]"| A
